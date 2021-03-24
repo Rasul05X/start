@@ -19,7 +19,7 @@ body{
    top: -80px;
    
    }
-   #t1{
+   #made{
       color: #46ac79;
       font-size: 40px; 
       left: -20px;
@@ -32,18 +32,19 @@ body{
    #halbkreis {
     background-color: #15462d;
    position: absolute;
-    width: 700px;
-    height: 700px;
+    width: 800px;
+    height: 800px;
     border-radius: 50%;
     z-index: -5;
-   top: -75%;
+   top: -80%;
      left: 50%;
      transform: translate(-50%, 50%);
+     
    }
    #text1{
    font-weight:bold;
-   color: rgb(218, 25, 25);
-   left: 20%;
-   transform: translate(-50%, 20%);
+   color: rgb(0, 0, 0);
+   left: 53%;
+   transform: translate(-50%, 50%);
    position: absolute;
    }
