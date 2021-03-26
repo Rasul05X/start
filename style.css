@@ -2,15 +2,15 @@ body{
    background-image: url(bild2.jpg);
    font-family: Arial, Helvetica, sans-serif;
    text-align: center;
-    
+  
    }
    
    h1{
       font-size:  100px;
     font-weight: 800;
     top: 00px;
-    color: rgb(0, 0, 0);
-    letter-spacing: -10px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -9px;
    position: absolute;
    width:100%;        
    margin-left:auto;
@@ -19,31 +19,31 @@ body{
    top: -80px;
    
    }
-   #made{
-      color: #46ac79;
-      font-size: 40px; 
-      left: -20px;
-     margin-left: 200px;
-      margin-top: 120px;
-      
-   
+   #by{
+      color: #65e2a3;
+      font-size: 50px; 
+      margin-top: -280px;
+      margin-left: 180;
+      letter-spacing: -2;
+      font-weight: 700;
+
    }
    
    #halbkreis {
-    background-color: #15462d;
-   position: absolute;
-    width: 800px;
-    height: 800px;
-    border-radius: 50%;
-    z-index: -5;
-    margin: 100px auto auto auto;
+    background-color: rgb(46, 129, 81);
+   width: 800px;
+   height: 400px;
+   border-radius:0 0 500px 500px;
+   z-index: -5;
+   display: inline-block;
+   margin-top: -10px;
+  
    }
    #text1{
-   font-weight:bold;
-   color: rgb(0, 0, 0);
-   left: 53%;
-   transform: translate(-50%, 50%);
-   position: absolute;
-   width: 200px;
+   color: rgb(255, 255, 255);
+   margin-left: 47%;
+   width: 230px;
    height: 100px;
+  margin-top: 70;
+  
    }
