@@ -1,5 +1,5 @@
 body{
-   background-image: url(bild2.jpg);
+   background-image: url(hintergrund.jpg);
    font-family: Arial, Helvetica, sans-serif;
    text-align: center;
   
@@ -34,11 +34,11 @@ body{
    width: 800px;
    height: 400px;
    border-radius:0 0 500px 500px;
-   z-index: -5;
+   z-index: -1;
    display: inline-block;
    margin-top: -10px;
   
-   }
+}
    #text1{
    color: rgb(255, 255, 255);
    margin-left: 47%;
@@ -47,3 +47,23 @@ body{
   margin-top: 70;
   
    }
+   #instagram { 
+      filter: opacity(90%);
+width: 50spx;
+height: 50px;
+position: absolute;
+margin-top: -70px;
+margin-left: -210px;
+
+    }
+
+    #tipper{
+font-size: 35px;
+border-right: ;
+margin-top: 130px;
+font-weight: 550;
+border-color: darkmagenta;
+border-radius: 120px;
+
+
+     }
