@@ -2,7 +2,7 @@ body{
    background-image: url(hintergrund.jpg);
    font-family: Arial, Helvetica, sans-serif;
    text-align: center;
-  
+
    }
    
    h1{
@@ -17,6 +17,7 @@ body{
    margin-right:auto;
    background-position:center;
    top: -80px;
+   
    
    }
    #by{
@@ -54,16 +55,48 @@ height: 50px;
 position: absolute;
 margin-top: -70px;
 margin-left: -210px;
-
+opacity: 0.6;
     }
+
+    #instagram:hover { 
+opacity: 1;
+}
 
     #tipper{
 font-size: 35px;
-border-right: ;
-margin-top: 130px;
+border-right: 2px solid rgba(255, 255, 255, 0.75);
 font-weight: 550;
-border-color: darkmagenta;
-border-radius: 120px;
-
-
+white-space: nowrap;
+overflow: hidden;
+position: absolute;
+margin: 130 auto ;
      }
+
+     /*animation*/
+#tipper  {
+   animation: typewriter 3s steps(40) 1s 1 normal both,
+   blinkTextCursor 500ms steps(40) infinite normal;
+   }
+
+   @keyframes typewriter{
+      from{
+width: 0;
+}
+  to{
+width: 16em;
+ }
+}
+
+@keyframes blinkTextCursor {
+   from {
+      border-color: transparent 50%
+   }
+to{
+   border-color: black;
+}
+}
+
+#text2{
+   top: -2000;
+   
+}
