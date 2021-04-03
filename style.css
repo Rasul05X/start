@@ -68,7 +68,6 @@ border-right: 2px solid rgba(255, 255, 255, 0.75);
 font-weight: 550;
 white-space: nowrap;
 overflow: hidden;
-position: absolute;
 margin: 130 auto ;
      }
 
@@ -97,6 +96,8 @@ to{
 }
 
 #text2{
-   top: -2000;
+top: -110px;
    
+   position: relative; 
+
 }
