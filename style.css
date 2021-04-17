@@ -2,13 +2,12 @@ body{
    background-image: url(hintergrund.jpg);
    font-family: Arial, Helvetica, sans-serif;
    text-align: center;
-
+   box-sizing: border-box;
    }
    
    h1{
       font-size:  100px;
     font-weight: 800;
-    top: 00px;
     color: rgb(255, 255, 255);
     letter-spacing: -9px;
    position: absolute;
@@ -109,6 +108,7 @@ position: relative;
 }
 
 #foto{
-width: 800px;
+
+margin-top: 5px;
 }
    
