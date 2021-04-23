@@ -2,12 +2,12 @@ body{
    background-image: url(hintergrund.jpg);
    font-family: Arial, Helvetica, sans-serif;
    text-align: center;
-  
+
    }
    
    h1{
-      font-size:  100px;
-    font-weight: 800;
+      font-size:  120px;
+    font-weight: 700;
     color: rgb(255, 255, 255);
     letter-spacing: -9px;
    position: absolute;
@@ -47,15 +47,16 @@ body{
   margin-top: 70;
   
    }
+
    #instagram { 
-      filter: opacity(95%);
+filter: opacity(95%);
 width: 50spx;
 height: 50px;
 position: absolute;
 margin-top: -70px;
 margin-left: -210px;
 opacity: 0.6;
-    }
+}
 
     #instagram:hover { 
 opacity: 1;
@@ -115,7 +116,7 @@ margin: 2px;
 #header{
 background-color: rgb(50, 124, 79);
 height: 30px;
-width: 220px;
+width: 200px;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 position: fixed;
@@ -125,12 +126,13 @@ top: 0px;
 z-index: 10;
 }
 
-li {
+a {
    float: left;
+   background-color: rgb(27, 194, 55);
 }  
 
-li a {
-padding: 7px;
+#a {
+padding: 6px;
 display: block;
 
 }
