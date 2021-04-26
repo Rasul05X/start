@@ -120,7 +120,7 @@ ul {
    padding: 0;
    background-color: rgb(50, 124, 79);
    height: 30px;
-   width: 220px;
+   width: 219px;
    border-bottom-left-radius: 11px;
    border-bottom-right-radius: 11px;
    position: fixed;
@@ -158,6 +158,22 @@ li a:hover{
    padding: 60px;
 }
 
+#bilder1{
+   width: 600px;
+   height:400px;
+}
+#bilder2{
+   width: 600px;
+}
+#bilder3{
+   width: 700px;
+ height: 800px;
+}
+#bilder4{
+   width: 550px;
+   height: 800px;
+}
+
 #Videografie{
     font-size:25px;
 font-weight: 600;
@@ -173,4 +189,12 @@ top: -45px;
   padding-top : 80px;
 margin-left: -490px;
 
+}
+
+img{
+   border-radius: 5px;
+}
+
+video{
+   border-radius: 5px;
 }
