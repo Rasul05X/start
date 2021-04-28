@@ -198,3 +198,21 @@ img{
 video{
    border-radius: 5px;
 }
+
+#rasulfoto{
+   width: 400px;
+   height: 650px;
+   position: relative;
+   top: -60px;
+}
+
+#text3{
+   top: -110px;
+   position: relative; 
+}
+
+#text224{
+width: 700px;
+font-weight: 400;
+
+}
