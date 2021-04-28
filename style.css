@@ -1,9 +1,16 @@
-body{
+#body1{
    background-image: url(hintergrund.jpg);
    font-family: Arial, Helvetica, sans-serif;
    text-align: center;
 overflow-x: hidden;
-
+height: 6000px;
+}
+#body2{
+   background-image: url(hintergrund.jpg);
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+overflow-x: hidden;
+height: 2000px;
    }
    
    h1{
@@ -83,7 +90,7 @@ margin: 130 auto ;
 width: 0;
 }
   to{
-width: 16em;
+width: 18em;
  }
 }
 
@@ -155,7 +162,7 @@ li a:hover{
    font-size:25px;
    font-weight: 600;
    top: -45px;
-   padding: 60px;
+   margin-top: 100px;
 }
 
 #bilder1{
@@ -178,6 +185,7 @@ li a:hover{
     font-size:25px;
 font-weight: 600;
 top: -45px;
+margin-top: 100px;
 }
 
 #video{
@@ -186,7 +194,7 @@ top: -45px;
 
 #rechte{
   font-size: 13px;
-  padding-top : 80px;
+  padding-top : 100px;
 margin-left: -490px;
 
 }
@@ -201,7 +209,7 @@ video{
 
 #rasulfoto{
    width: 400px;
-   height: 650px;
+   height: 400px;
    position: relative;
    top: -60px;
 }
@@ -211,8 +219,44 @@ video{
    position: relative; 
 }
 
-#text224{
-width: 700px;
-font-weight: 400;
-
+#text4{
+width: 800px;
+margin: auto;
+font-weight: 200;
 }
+
+strong{
+   font-size: 90;
+}
+
+blockquote{
+   margin: 100px;
+   font-size: large;
+   font-weight: 800;
+color: rgb(19, 65, 27);
+padding: 40px;
+border-top: solid 2px;
+border-bottom: solid 2px;
+}
+
+blockquote:after{
+   content: "”";
+   color: rgb(19, 65, 27);
+   font-size: 130px;
+   position: absolute;
+   margin: 9px;
+   margin-left: -40px;
+}
+
+#input1{
+   width: 190px;
+   position: relative;
+   background-color: rgb(173, 172, 172);
+   height: 35px;
+   border: none;
+   display: block;
+   margin: 3px ;
+   top: -40px;
+   left: 500px;
+}
+
